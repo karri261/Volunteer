@@ -1,0 +1,36 @@
+:root {
+    /* --color-01:-webkit-linear-gradient(-30deg, #f57f20, #d5482c 100%); */
+    --color-02:#090909;
+    --color-03: #f57f20;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+}
+.button-changecolor {
+    padding: 10px 20px;
+    background: var(--color-03);
+    color: #fff;
+    border: 2px solid var(--color-03);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    transition: background 1s, color 0.3s;
+}
+p {
+    margin: 0;
+}
+.button-changecolor:hover{
+    color: var(--color-03);
+    background: #fff;
+}
+body {
+    min-width: 400px;
+}
+.container {
+    max-width: 1200px;
+}
